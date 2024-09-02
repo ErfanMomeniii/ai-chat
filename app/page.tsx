@@ -5,7 +5,7 @@ const Home = () => {
   const [message, setMessage] = useState("");
   const [response, setResponse] = useState("");
   const [isLoading,setIsLoading]=useState(false);
-  const [all_messages,setAllMessages]=useState(Array)
+  const [all_messages,setAllMessages]=useState(Array())
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
