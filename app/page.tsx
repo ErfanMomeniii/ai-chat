@@ -47,7 +47,7 @@ const Home = () => {
             className={`whitespace-pre-wrap ${
               m.role === "user"
                 ? "bg-green-200 p-3 m-2 rounded-lg"
-                : "bg-slate-200 p-3 m-2 rounded-lg"
+                : "bg-slate-300 p-3 m-2 rounded-lg"
             }`}
           >
             {m.role === "user" ? "User: " : "AI: "}
